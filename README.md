@@ -16,5 +16,5 @@ $ objdump -W
 ## Dynamic symbols
 
 ```shell
--objdump -TC
+$ objdump -TC
 ```
