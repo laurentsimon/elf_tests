@@ -1,5 +1,7 @@
 # elf_tests
 
+[Analyzing headers](https://medium.com/@allypetitt/reverse-engineering-analyzing-headers-23dc84075cd)
+
 ## Debug symhols
 
 ```shell
@@ -17,4 +19,10 @@ $ objdump -W
 
 ```shell
 $ objdump -TC
+```
+
+## File header
+
+```shell
+$ readelf -e
 ```
